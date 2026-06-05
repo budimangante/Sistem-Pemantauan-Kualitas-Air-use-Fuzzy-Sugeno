@@ -1,15 +1,15 @@
-# 🚰 Sistem Pemantau Kualitas Air Bersih Otomatis (IoT)
+## Sistem Pemantau Kualitas Air Bersih Otomatis (IoT)
 
 Proyek Tugas Besar Mikrokontroler (Kelas Micro A / 2023) berupa sistem otomatisasi pemantauan dan pemblokiran air keruh skala rumah tangga menggunakan **ESP32/ESP8266**, **Fuzzy Logic Sugeno**, dan notifikasi **Telegram Bot**[cite: 1].
 
 ---
 
-## 💡 Overview Proyek
+## Overview Proyek
 Terinspirasi dari masalah kualitas air PDAM di Kota Samarinda yang sering keruh akibat pencemaran Sungai Mahakam, proyek ini hadir sebagai solusi deteksi dini[cite: 1]. 
 
 Sistem ini bekerja secara *real-time* untuk mencegah air kotor masuk ke tandon rumah warga dengan cara menutup aliran air secara otomatis melalui *Solenoid Valve* jika mendeteksi tingkat kekeruhan (NTU) di luar ambang batas aman[cite: 1].
 
-## 🛠️ Cara Kerja Sistem
+## Cara Kerja Sistem
 1. **Sensing:** Sensor Turbidity Seno189 membaca tingkat kekeruhan air[cite: 1].
 2. **Processing:** Mikrokontroler mengolah data menggunakan **Fuzzy Logic Sugeno** untuk menentukan status air (Jernih, Keruh, atau Sangat Keruh)[cite: 1].
 3. **Actuating:** 
