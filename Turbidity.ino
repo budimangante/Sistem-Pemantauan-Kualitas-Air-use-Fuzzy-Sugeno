@@ -1,10 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
 #include <Fuzzy.h>
-const char* ssid     = "Electrical Workshop";
-const char* password = "RESISTOR";
-const char* botToken = "8638563351:AAF49tzTc9PGC07unlHJVu8xQJt0AQIDZEU"; 
-const char* chatId   = "7585338767";   
+const char* ssid     = "Isi Sendiri";
+const char* password = "Isi Sendiri";
+const char* botToken = "Isi Sendiri"; 
+const char* chatId   = "Isi Sendiri";   
 
 // --- Konfigurasi Pin sensor dan relay ---
 const int PinTurbidity = A0;
